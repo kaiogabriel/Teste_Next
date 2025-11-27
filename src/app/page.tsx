@@ -15,8 +15,14 @@ export const metadata = {
 }
 export default function HomePage() {
   return (
-    <div>
-      <h1 className="bg-red-100">Seja bem-vindo ao Game On!</h1>
+    <div className="text-center">
+      <h1 className="text-4xl font-bold text-red-500">
+        Bem-vindo à Pokédex!
+      </h1>
+
+      <p className="mt-4 text-gray-600">
+        Explore informações dos Pokémons usando Next.js + PokéAPI.
+      </p>
     </div>
   );
 }
